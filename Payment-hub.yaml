@@ -1,0 +1,16 @@
+name: SampleConfig
+version: 1.0
+settings:
+  debug: true
+  logging:
+    level: INFO
+    output: logs/app.log
+  database:
+    host: localhost
+    port: 5432
+    username: user
+    password: pass
+  features:
+    - authentication
+    - analytics
+    - notifications  
