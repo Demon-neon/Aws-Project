@@ -1,7 +1,7 @@
-name: SampleConfig
+name: Randibaaz
 version: 1.0
 settings:
-  debug: true
+  debug: False
   logging:
     level: INFO
     output: logs/app.log
